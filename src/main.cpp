@@ -6,6 +6,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
   //read the input file content
+  //AI generated begin
   if (argc != 3) {
     cerr << "Usage: " << argv[0] << " <input_file> <output_file>" << endl;
     return 1;
@@ -16,6 +17,7 @@ int main(int argc, char* argv[]) {
     cerr << "Error opening files!" << endl;
     return 1;
   }
+  //AI generated end
   
   char graphType;
   int n, m;
